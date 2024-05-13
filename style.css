@@ -74,3 +74,70 @@ button{
     border-radius: 2px;
 }
 
+.pac2 {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pac2 img {
+    width: 100%;
+    height: auto;
+}
+
+.detalhes2 {
+    padding: 20px;
+}
+
+.detalhes2 h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.detalhes2 p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.destaque2{
+    background-color: #ebeff1;
+    width: 65px;
+    border-radius: 2px;
+}
+
+.pac3 {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pac3 img {
+    width: 100%;
+    height: auto;
+}
+
+.detalhes3 {
+    padding: 20px;
+}
+
+.detalhes3 h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.detalhes3 p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.destaque3{
+    background-color: #ebeff1;
+    width: 65px;
+    border-radius: 2px;
+}
