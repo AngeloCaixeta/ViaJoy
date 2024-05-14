@@ -3,17 +3,6 @@
     margin: 0;
  }
 
- header{
-     background-color: rgba(34, 138, 158, 1);
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     padding-right: 40px;
-     height: 150px;
-     
-         
-}
-
 
  .imagem1{
      width: 109px ;
