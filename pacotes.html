@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
   <title>Pacotes - Viajoy</title> 
 </head>
 <body>
@@ -22,32 +23,38 @@
   <main>
     <h1>Bem-vindo a Viajoy</h1>
     <section>
-      <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Busca de Datas de Voo</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="search-box">
-        <h2>Buscar Voo</h2>
-        <form id="flight-search-form">
-            <label for="departure-date">Data de Partida:</label>
-            <input type="date" id="departure-date" name="departure-date" required>
-            
-            <label for="return-date">Data de Retorno:</label>
-            <input type="date" id="return-date" name="return-date" required>
-            
-            <button type="submit">Buscar</button>
+      <section0>
+      <h5>Pacotes de Viagens</h5>
+    </section0>
+    <section01>
+    <div class="busca1">
+        <form id="data-form">
+            <label for="partidadata">Data de Partida:</label>
+            <input type="date" id="partidadata" name="partidadata" required>
+        </form>  
+    </div> 
+    <div class="busca2">
+        <form id="return"> 
+            <label for="retorno-data">Data de Retorno:</label>
+            <input type="date" id="retorno-data" name="retorno-data" required>
         </form>
-        <div id="result"></div>
     </div>
-    <script src="script.js"></script>
-</body>
-</html>
-
+    <div class="busca3">
+        <form id="local-form">
+          <label for="origem">Origem:</label>
+          <input type="text" id="origem" name="origem" placeholder="Digite a cidade de origem" required>
+        </form>
+    </div>
+    <div class="busca4">
+        <form id="origim"> 
+            <label for="destino">Destino:</label>
+            <input type="text" id="destino" name="destino" placeholder="Digite a cidade de destino" required>
+        </form>
+        <button type="submit">Buscar</button>
+    </div>
+    
+    </div>
+  </section01>
     </section>
     <section2>
     <div class="pac1">
