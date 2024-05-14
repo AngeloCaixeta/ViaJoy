@@ -5,13 +5,15 @@
      align-items: center;
      padding-right: 40px;
      height: 150px;
-     
-     
+         
 }
+
+
  .imagem1{
      width: 109px ;
      height: 100px ;
      padding: 40px;
+     
 }
 
       
@@ -148,3 +150,106 @@ section2{
       
 }
 
+main{
+    background-color:rgba(34, 138, 158, 1) ;
+
+}
+
+header, main, footer {
+    margin: 0px;
+    padding: px;
+}
+
+/*footer */
+
+
+.conteinerfooter{
+    background-color: #9dd7e2 ;
+    padding: 20px;
+    display: flex;
+    margin-top: 50px;
+    
+}    
+.h2viajoy{
+    font-size: 50px;
+}
+
+ .p {
+    font-size: 17px;
+    position: static;
+    right: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.links{
+    margin-top: 27px;
+}
+.links ul{
+    margin-top: 20px;
+    list-style-type: none;
+}
+.links li{
+    margin-top: 10px;
+}
+.sobrenos{
+    word-spacing: 2px;
+}
+.termos{
+    margin-top: 27px;
+    margin-left: 120px;
+}
+.condicoesdeuso{
+    word-spacing: 4px;
+}
+.politicadeprivacidade{
+    word-spacing: 4px;
+    margin-top: 15px;
+}
+.termosecondicoes{
+    word-spacing: 4px;
+    margin-top: 15px;
+}
+
+.termos ul{
+    margin-top: 20px;
+    list-style-type: none;
+}
+#imagens{
+    display: flex;
+    list-style-type: none;
+    margin-top: 180px;
+}
+#imagens li{
+    position: relative;
+    right: 86px;
+}
+.h2endereco{
+    margin-left: 187px;
+    margin-top: 27px;
+}
+.endereco p{ 
+    margin-top: 20px;
+    margin-left: 190px;
+    font-weight: bold;
+}
+.img1{
+    width: 25px;
+    height: 25px;
+    margin-left: -84px;
+}
+.img2{
+    width: 25px;
+    height: 25px;
+    margin-left: -30px;
+}
+.img3{
+    width: 25px;
+    height: 25px;
+    margin-left: 30px;
+}
+.img4{
+    width: 25px;
+    height: 25px;
+    margin-left: 40px;
+}

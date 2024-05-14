@@ -31,7 +31,7 @@ input {
     border-radius: 4px;
 }
 
-button {
+.but1 {
     margin-top: 20px;
     padding: 10px;
     border: none;
@@ -41,9 +41,6 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #0056b3;
-}
 
 #result {
     margin-top: 20px;
