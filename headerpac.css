@@ -18,11 +18,17 @@ header {
     height: 150px;
 }
 
-img{
+.imagem1{
     width: 109px ;
     height: 100px ;
     padding: 40px;
 
+}
+
+.foto{
+    width: 109px ;
+    height: 100px ;
+    padding: 40px;
 }
 
 nav a {
