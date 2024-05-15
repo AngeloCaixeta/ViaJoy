@@ -4,49 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início - ViaJoy</title>
+    <link rel="stylesheet" href="assets/inicio.css">
+    <link rel="stylesheet" href="assets/header.css">
+    <link rel="stylesheet" href="assets/footer.css">
 </head>
 <body>
-    <header>
-      <img src="imagens/logo.jpg" alt="Viajoy Logo">
-        <nav>
+  <header>
+    <img class="imagem1" src="imagens/logo.jpg" alt="Viajoy Logo">
+    <nav>
+        <ul>
             <a href="inicio.html">Inicio</a>
             <a href="pacotes.html">Pacotes</a>
             <a href="sobre.html">Sobre Nós</a>
             <a href="contato.html">Contato</a>
             <a href="faq.html">FAQ</a>
             <a href= "login.html"><button>Login</button></a>
-        </nav>
+        </ul>
     </header>
-    <main>
-        <h1>QUAL LUGAR NO MUNDO 
-            <br>
-            DESEJA ESTAR?</h1>
-        <section>
-            <form action="">
-                <section>
-                    <input type="text" id="busca" name="busca" required placeholder="Seu próximo destino">
-                    <input type="submit" id="enviar" value="Enviar">
-                </section>
-                <section>
-                    <h2>Rio de Janeiro</h2>
-                    <a href="rio.html"><img src="imagens/riodejaneiro.jpg" alt="Imagem do Rio"></a>
-                </section>
-                <section>
-                    <h2>Salvador</h2>
-                    <a href="salvador.html"><img src="imagens/Salvador.jpg" alt="Imagem de Salvador"></a>
-                </section>
-                <section>
-                    <h2>Gramado</h2>
-                    <a href="gramado.html"><img src="imagens/gramado.jpg" alt="Imagem de Gramado"></a>
-                </section>
-                <section>
-                    <h2>Fortaleza</h2>
-                    <a href="fortaleza.html"><img src="imagens/fortaleza.jpg" alt="Imagem de Fortaleza"></a>
-                </section>
-            </form>
+    <div class="header">
+        <h1>QUAL LUGAR NO MUNDO <br> DESEJA ESTAR?</h1>
+        <section class="form-container">
+          <form action="">
+            <input type="text" id="busca" name="busca" required placeholder="Seu próximo destino">
+            <input type="submit" id="enviar" value="Enviar">
+          </form>
         </section>
-    </main>
-    <footer>
+      </div>
+      <main>
+        <section class="conteinerpai">
+          <section class="destino">
+            <h2>Rio de Janeiro</h2>
+            <a href="rio.html"><img class="rio" src="imagens/riodejaneiro.jpg" alt="imagem do Rio de Janeiro"></a>
+          </section>
+          <section class="destino">
+            <h2>Salvador</h2>
+            <a href="salvador.html"><img class="salvador" src="imagens/Salvador.jpg" alt="Imagem de Salvador"></a>
+          </section>
+        </section>
+        <section class="conteinerpai">
+          <section class="destino">
+            <h2>Gramado</h2>
+            <a href="gramado.html"><img class="gramado" src="imagens/gramado.jpg" alt="Imagem de Gramado"></a>
+          </section>
+          <section class="destino">
+            <h2>Fortaleza</h2>
+            <a href="fortaleza.html"><img class="fortaleza" src="imagens/fortaleza.jpg" alt="Imagem de Fortaleza"></a>
+          </section>
+        </section>
+      </main>
+      <footer>
         <div>
             <h2>Viajoy</h2>
             <p>Uma aventura é uma experiência que te transforma. É a oportunidade de descobrir novos lugares, conhecer pessoas diferentes e viver momentos inesquecíveis. Viaje com a Viajoy e viva suas próprias aventuras!</p>
@@ -56,7 +62,7 @@
             <ul>
                 <li><a href="inicio.html">Inicio</a></li>
                 <li><a href="pacotes.html">Pacotes</a></li>
-                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="sobre.html">Sobre Nós</li>
                 <li><a href="contato.html">Contato</a></li>
                 <li><a href="faq.html">FAQ</a></li>
             </ul>
@@ -73,16 +79,15 @@
             <h2>Endereço</h2>
             <p>Rua Fictícia, 123</p>
             <p>Telefone: (11) 1234-5678</p>
-            <p>Email: viajoy@gmail.com</p>
-        </div>
-        <div>
-            <h2>Redes sociais</h2>
-            <ul>
-              <li><a href="https://www.facebook.com/?locale=pt_BR"><img src="imagens/icone-facebook.png" alt="Ícone do Facebook"></a></li>
-              <li><a href="https://www.instagram.com"><img src="imagens/icone-instragram.png" alt="Ícone do Instagram"></a></li>
-              <li><a href="https://www.linkedin.com/home"><img src="imagens/icone-linkedin.png" alt="Ícone do Linkledin"></a></li>
-              <li><a href="https://www.youtube.com/"><img src="imagens/icone-youtube.png" alt="Ícone do Youtube"></a></li>
-            </ul>
+            <p>Email: viajoy@gmail.com</p>        
+            <div class= "redes">
+                <ul>
+                    <li><a href="https://www.facebook.com/?locale=pt_BR"><img src="imagens/icone-facebook.png" alt="Ícone do Facebook"></a></li>
+                    <li><a href="https://www.instagram.com"><img src="imagens/icone-instragram.png" alt="Ícone do Instagram"></a></li>
+                    <li><a href="https://www.linkedin.com/home"><img src="imagens/icone-linkedin.png" alt="Ícone do Linkledin"></a></li>
+                    <li><a href="https://www.youtube.com/"><img src="imagens/icone-youtube.png" alt="Ícone do Youtube"></a></li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>

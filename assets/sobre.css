@@ -1,0 +1,69 @@
+/* Estilos globais */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+header img {
+  width: 200px;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+main {
+  padding: 40px;
+  background-color: rgba(157, 215, 226, 1); /* Adicionando cor de fundo */
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.texto {
+  flex: 1;
+}
+
+.imagem {
+  width: 400px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.imagem img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.container {
+  max-width: 800px; /* Ajustar o valor de acordo com a sua preferência */
+  margin: 0 auto; /* Centralizar o container na tela */
+}
+
+h1 {
+  text-align: center; /* Centralizar o texto horizontalmente */
+  margin-bottom: 40px; /* Adicionar espaço abaixo do h1 */
+}
