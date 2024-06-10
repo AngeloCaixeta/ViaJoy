@@ -23,7 +23,7 @@ const arrayPostagens = [
   ]
   
   for (let i=0; i <arrayPostagens.length; i++){
-  const article = document.createElement("article")
+  const article = document.createElement('article')
   article.id = `post- ${[i + 1]}`
   
   article.innerHTML = `
@@ -33,8 +33,8 @@ const arrayPostagens = [
   <div class="data">${arrayPostagens[i].data}</div>
   <p>${arrayPostagens[i].texto}</p>
   `
-  const main = document.querySelector('main');
+  const main = document.querySelector('section3');
   main.appendChild(article);
 
-  
   }
+  
