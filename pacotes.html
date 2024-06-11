@@ -47,15 +47,16 @@
         </form>
     </div>
     <div class="busca3">
-        <form id="local-form">
-          <label for="origem">Origem:</label>
-          <input type="text" id="origem" name="origem" placeholder="Digite a cidade de origem" required>
-        </form>
+      <form id="local-form">
+        <label for="origem">Origem:</label>
+        <input type="text" id="origem" name="origem" placeholder="Digite a cidade de origem" class="inputs required" oninput="nameValidate()">
+       
+      </form>
     </div>
     <div class="busca4">
         <form id="origim"> 
             <label for="destino">Destino:</label>
-            <input type="text" id="destino" name="destino" placeholder="Digite a cidade de destino" required>
+            <input type="text" id="destino" name="destino" placeholder="Digite a cidade de destino" class="inputs required" oninput="nameValidate2()">
         </form>
         <button class="but1 " type="submit">Buscar</button>
     </div>
@@ -63,39 +64,7 @@
     </div>
   </section01>
     </section>
-    <section2>
-    <div class="pac1">
-      <img src="imagens/igreja.jpg" alt="Imagem da Igreja">
-      <div class="detalhes">
-          <h2>Ônibus para Barão de Cocais</h2>
-          <p>Saindo de Belo Horizonte </p>
-          <p>Por companhia Pássado verde</p>
-          <p class="destaque">Ida e Volta</p2>
-          <p>teste</p>
-      </div>
-  </div>
-  <div class="pac2">
-    <img src="imagens/big-ben.jpg" alt="Imagem ddo BigBan Londres">
-    <div class="detalhes2">
-        <h2>Avião para Londres</h2>
-        <p>Saindo de Belo Horizonte </p>
-        <p>Por companhia Latam</p>
-        <p class="destaque2">Ida e Volta</p2>
-        <p>teste</p>
-    </div>
-</div>
-<div class="pac3">
-  <img src="imagens/Berlim.jpg" alt="Imagem de Berlim">
-  <div class="detalhes3">
-      <h2>Avião para Londres</h2>
-      <p>Saindo de Belo Horizonte </p>
-      <p>Por companhia Latam</p>
-      <p class="destaque3">Ida e Volta</p2>
-      <p>teste</p>
-  </div>
-  
-</div>
-</section2>
+    
 <section3>
   
 </section3>
@@ -139,5 +108,7 @@
       </ul>
   </div>
 </footer>
+
 </body>
+
 </html>

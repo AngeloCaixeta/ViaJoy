@@ -37,4 +37,22 @@ const arrayPostagens = [
   main.appendChild(article);
 
   }
-  
+
+  function nameValidate() {
+    const input = document.getElementById('origem');
+    if (input.value.length < 3) {
+        input.classList.add('error');
+    } else {
+        input.classList.remove('error');
+    }
+}
+
+function nameValidate2() {
+  const input = document.getElementById('destino');
+  if (input.value.length < 3) {
+      input.classList.add('error');
+  } else {
+      input.classList.remove('error');
+  }
+}
+
