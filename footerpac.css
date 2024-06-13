@@ -1,5 +1,5 @@
 footer {
-    background-color: #9DD7E2;
+    background-color: 9DD7E2;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -54,10 +54,15 @@ footer .redes {
 
 footer .redes li {
     display: inline-block;
-    margin:  10px;
+    margin: 10px;
 }
 
 footer .redes img {
     width: 30px;
-    height:30px;
+    height: 30px;
 }
+
+footer {
+    background-color: rgba(157, 215, 226, 1); /* Adicionando cor de fundo */
+
+  }
