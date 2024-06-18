@@ -1,0 +1,73 @@
+footer {
+    background-color: 9DD7E2;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer div:first-child {
+    flex: 1.2;
+    margin-right: 60px;
+}
+
+footer div:not(:first-child) {
+    flex: 1;
+}
+
+footer h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: 900; 
+    line-height: normal; 
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+footer p, footer a {
+   
+    font-size: 15px;
+    line-height: normal;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #000000;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li, footer ul li a {
+    text-align: left;
+    margin-bottom: 10px;
+    color: #000000; 
+}
+
+footer ul li a:hover {
+    color: #000000; 
+}
+
+footer .redes {
+    margin-top: 20px;
+}
+
+footer .redes li {
+    display: inline-block;
+    margin: 10px;
+}
+
+footer .redes img {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    background-color: rgba(157, 215, 226, 1); /* Adicionando cor de fundo */
+
+  }
+.a1,.sobrenos, .condicoesdeuso,
+.politicadeprivacidade,
+.termosecondicoes{
+    word-spacing: 2px;
+}

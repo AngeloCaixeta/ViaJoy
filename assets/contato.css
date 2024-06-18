@@ -1,0 +1,169 @@
+/*corpo*/
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    overflow-x: hidden;
+    max-width:100% ;
+    background-color: rgba(157, 215, 226, 1);
+/*cabeçalho*/
+}
+ header{
+     background-color: rgba(34, 138, 158, 1);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-right: 40px;
+     height: 150px;
+     
+     
+}
+ .imagem1{
+     width: 109px ;
+     height: 100px ;
+     padding: 40px;
+}
+
+      
+nav{
+     margin-right: 50px;
+     margin-top: 22px;
+     border: -50px;
+}
+   
+ul{
+    word-spacing: 20px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+
+button{
+    
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+    height: 40px;
+    width: 70px;
+}
+/*Contato*/
+h1{
+    font-size: 50px;
+    position: relative;
+    left: 5px;
+    top: 8px;
+}
+.container label{
+    position: relative;
+    display: flex;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+text{
+    text-align: right;
+    margin-right: 10px;
+}
+.grupo1{
+    display:inline-block;
+    padding: 5px;
+    border: 1px ;
+    border-radius: 3px;
+    margin-top: 12px;
+    
+}
+.input1{
+    width: 250px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.grupo2 {
+    display:inline-block;
+    padding: 5px;
+    border: 1px ;
+    border-radius: 3px;
+    margin-left: 100px;
+}
+.input2{
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+}
+
+
+.grupo3 input,
+.grupo4 textarea {
+    width: 97%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 6px;
+
+}
+.grupo3{
+    margin-top: 50px;
+}
+.grupo4{
+    margin-top: 50px;
+
+}
+textarea{
+    height: 150px;
+}
+.btnenviar {
+    
+    width:99%; 
+    height: 30px;
+    border-radius: 5px;
+    margin-left:5px ;
+    margin-top: 45px;
+}
+
+
+
+/*divisão da main*/
+
+.container {
+    display: flex; 
+
+}
+
+.formulario, .local {
+    flex: 1; 
+    margin: 10px; 
+    padding: 20px; 
+}
+
+.formulario {
+    background-color:#9dd7e2 ;
+    
+}
+
+.local{
+    background-color:#9dd7e2 ;
+
+}
+/*mapa*/
+iframe{    
+    border-radius: 20px;
+    position: relative;
+    top: 40px;
+}
+section h2{
+    font-size: 50px;
+    position: relative;
+}
+ .p1{
+    position: relative;
+    top: 30px;
+    left: 190px;
+    
+}
+

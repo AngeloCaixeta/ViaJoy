@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+    background-color: rgba(157, 215, 226, 1);
+}
+
+header {
+    background-color: rgba(34, 138, 158, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    height: 150px;
+}
+
+.imagem1{
+    width: 109px ;
+    height: 100px ;
+    padding: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-right: 20px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+    height: 40px;
+    width: 70px;
+}
+
+.pac1 {
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.pac1 img {
+    width: 100%;
+    height: 50%;
+}
+
+.detalhes {
+    padding: 20px;
+}
+
+.detalhes h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.detalhes p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.destaque{
+    background-color: #ebeff1;
+    width: 65px;
+    border-radius: 2px;
+}
+
+.pac2 {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.pac2 img {
+    width: 100%;
+    height: 50%;
+}
+
+.detalhes2 {
+    padding: 20px;
+}
+
+.detalhes2 h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.detalhes2 p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.destaque2{
+    background-color: #ebeff1;
+    width: 65px;
+    border-radius: 2px;
+}
+
+.pac3 {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.pac3 img {
+    width: 100%;
+    height: 50%;
+}
+
+.detalhes3 {
+    padding: 20px;
+}
+
+.detalhes3 h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.detalhes3 p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.destaque3{
+    background-color: #ebeff1;
+    width: 65px;
+    border-radius: 2px;
+}
+
+section2{
+        display: flex;
+        justify-content: center;
+      
+}
+
+main{
+    background-color:rgba(34, 138, 158, 1) ;
+
+}
+
+
+
+section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    justify-content: center;
+    
+}
+section01{
+    display: flex;
+    justify-content: center;
+}
+
+h5 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+
+
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.but1 {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+#result {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+#data-form{
+    background-color: #ebeff1;
+    width: 130px;;
+    padding: 20px;
+    border-radius: 2px; 
+    margin: 0px;
+        
+}
+
+#return{
+    background-color: #ebeff1;
+    width: 130px;;
+    padding: 20px;
+    border-radius: 2px; 
+    margin-right: 1px;
+}
+#local-form{
+    background-color: #ebeff1;
+    width: 180px;;
+    height: 60px;
+    padding: 20px;
+    border-radius: 2px; 
+    margin: 0px;
+}
+#origim{
+    background-color: #ebeff1;
+    width: 190px;;
+    height: 60px;
+    padding: 20px;
+    border-radius: 2px; 
+    margin: 0px;
+}
+
+
+label{
+    display: flex;
+}
+input{
+    display: flex;
+}
+
+
+/*footer*/
+.conteinerfooter{
+    background-color: #9dd7e2 ;
+    padding: 20px;
+    display: flex;
+    margin-top: 50px;
+    
+}    
+.h2viajoy{
+    font-size: 50px;
+}
+
+ .p {
+    font-size: 17px;
+    position: static;
+    right: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.links{
+    margin-top: 27px;
+}
+.links ul{
+    margin-top: 20px;
+    list-style-type: none;
+}
+.links li{
+    margin-top: 10px;
+}
+.sobrenos{
+    word-spacing: 2px;
+}
+.termos{
+    margin-top: 27px;
+    margin-left: 120px;
+}
+.condicoesdeuso{
+    word-spacing: 4px;
+}
+.politicadeprivacidade{
+    word-spacing: 4px;
+    margin-top: 15px;
+}
+.termosecondicoes{
+    word-spacing: 4px;
+    margin-top: 15px;
+}
+
+.termos ul{
+    margin-top: 20px;
+    list-style-type: none;
+}
+#imagens{
+    display: flex;
+    list-style-type: none;
+    margin-top: 180px;
+}
+
+.h2endereco{
+    margin-left: 187px;
+    margin-top: 27px;
+}
+.endereco p{ 
+    margin-top: -10px;
+}
+.img1{
+    width: 25px;
+    height: 25px;
+    margin-left: -94px;
+}
+.img2{
+    width: 25px;
+    height: 25px;
+    margin-left: -30px;
+}
+.img3{
+    width: 25px;
+    height: 25px;
+    margin-left: 30px;
+}
+.img4{
+    width: 25px;
+    height: 25px;
+    margin-left: 40px;
+}

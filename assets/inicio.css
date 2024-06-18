@@ -1,0 +1,127 @@
+/*corpo*/
+*{
+  margin: 0;
+  padding: 0; 
+}
+body{
+  overflow-x: hidden;
+  max-width:100% ;
+  background-color: rgba(157, 215, 226, 1);
+/*cabeçalho*/
+}
+header{
+   background-color: rgba(34, 138, 158, 1);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-right: 40px;
+   height: 150px;
+   
+   
+}
+.imagem1{
+   width: 109px ;
+   height: 100px ;
+   padding: 40px;
+}
+
+    
+nav{
+   margin-right: 50px;
+   margin-top: 22px;
+   border: -50px;
+}
+ 
+ul{
+  word-spacing: 20px;
+}
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+
+button{
+  
+  background-color: black;
+  color: white;
+  border-radius: 20%;
+  height: 40px;
+  width: 70px;
+}
+
+button{
+  
+  background-color: black;
+  color: white;
+  border-radius: 20%;
+  height: 40px;
+  width: 70px;
+}
+
+/* Estilos gerais */
+body {
+  
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+.header {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  padding: 20px;
+  background-color: rgba(157, 215, 226, 1); /* Adicionando cor de fundo */
+}
+
+h1 {
+  font-family: "Bayon", sans-serif;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+main {
+  padding: 40px;
+  background-color: rgba(157, 215, 226, 1); /* Adicionando cor de fundo */
+}
+
+/* Estilos para o formulário */
+.form-container {
+  margin-left: 500px; /* Espaço entre o cabeçalho e o formulário */
+}
+
+.form-container form {
+  display: flex; /* Para alinhar os elementos internos */
+}
+
+.form-container input[type="text"] {
+  margin-right: 10px; /* Espaço entre os campos de texto e o botão */
+}
+
+/* Estilos para os destinos */
+.conteinerpai {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.destino {
+  text-align: center;
+  height: 300px; /* Defina uma altura fixa para os elementos .destino */
+}
+
+
+
+.destino img {
+  width: 14cm; /* Define a largura em centímetros */
+  height: 7cm; /* Define a altura em centímetros */
+  object-fit: cover; /* Garante que a imagem cubra o elemento .destino */
+  border-radius: 70px; /* Adicione o border-radius desejado */
+}
