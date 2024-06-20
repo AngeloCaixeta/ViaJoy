@@ -1,0 +1,90 @@
+/*corpo*/
+*{
+  margin: 0;
+  padding: 0; 
+}
+body{
+  overflow-x: hidden;
+  max-width:100% ;
+  background-color: rgba(157, 215, 226, 1);
+/*cabeçalho*/
+}
+header{
+   background-color: rgba(34, 138, 158, 1);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-right: 40px;
+   height: 150px;
+   
+   
+}
+.imagem1{
+   width: 109px ;
+   height: 100px ;
+   padding: 40px;
+}
+
+    
+nav{
+   margin-right: 50px;
+   margin-top: 22px;
+   border: -50px;
+}
+ 
+ul{
+  word-spacing: 20px;
+}
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+}
+
+
+button{
+  
+  background-color: black;
+  color: white;
+  border-radius: 20%;
+  height: 40px;
+  width: 70px;
+}
+main {
+  padding: 40px;
+  background-color: rgba(157, 215, 226, 1); /* Adicionando cor de fundo */
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.texto {
+  flex: 1;
+}
+
+.imagem {
+  width: 400px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.imagem img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.container {
+  max-width: 800px; /* Ajustar o valor de acordo com a sua preferência */
+  margin: 0 auto; /* Centralizar o container na tela */
+}
+
+h1 {
+  text-align: center; /* Centralizar o texto horizontalmente */
+  margin-bottom: 40px; /* Adicionar espaço abaixo do h1 */
+}
