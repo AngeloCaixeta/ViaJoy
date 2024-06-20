@@ -15,10 +15,14 @@ header{
    justify-content: space-between;
    align-items: center;
    padding-right: 40px;
-   height: 150px;
-   
-   
+   height: 150px;  
 }
+
+.texto p {
+  padding-top: 15px;
+  text-align: justify;
+}
+
 .imagem1{
    width: 109px ;
    height: 100px ;
