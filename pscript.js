@@ -3,21 +3,21 @@ const arrayPostagens = [
     titulo: "Ônibus para Barão de Cocais",
     subtitulo: "Saindo de Belo Horizonte",
     data: "Ida e Volta",
-    imagem: "/imagens/igreja.jpg",
+    imagem: "/ViaJoy/imagens/igreja.jpg",
     texto: "Em Barão de Cocais, você pode conhecer o Sítio Arqueológico da Pedra Pintada, cenário deslumbrante, com pinturas bem conservadas e datadas de 6.000 anos a.C."
   },
   {
     titulo: "Avião para Londres",
     subtitulo: "Saindo de Belo Horizonte",
     data: "Ida e Volta",
-    imagem: "/imagens/big-ben.jpg",
+    imagem: "/ViaJoy/imagens/big-ben.jpg",
     texto: "A cidade de Londres conta com quase nove milhões de habitantes. Ela é o maior município em população do Reino Unido e um dos maiores de toda a Europa"
   },
   {
     titulo: "Avião para Berlim",
     subtitulo: "Saindo de Belo Horizonte",
     data: "Ida e Volta",
-    imagem: "/imagens/Berlim.jpg",
+    imagem: "/ViaJoy/imagens/Berlim.jpg",
     texto: "Berlim é um cidade jovem, moderna, alternativa, mas que também preserva (e muito bem) o seu passado. Comece a percorrer a capital alemã fazendo um passeio guiado pelo Centro Histórico, passando por importantes pontos turísticos como o Portão de Brandemburgo, o Monumento do Holocausto e o Checkpoint Charlie."
   },
 ]
